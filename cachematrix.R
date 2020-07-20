@@ -30,4 +30,11 @@ cacheSolve <- function(x, ...){
 
 ## Write a short comment describing this function
         ## Return a matrix that is the inverse of 'x'
+##if you create a small matrix
+smallmatrix <- makeCacheMatrix(matrix(1:4, nrow =2, ncol =2))
+##then run smallmatrix$get()
+smallmatrix$get()
+##you will end up with a 2 by 2 matrix
+##the cacheSolve(smallmatrix) command will give you the inverse
+##of the smallmatrix and will give a message when already cached
 
